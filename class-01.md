@@ -108,3 +108,73 @@ Example:
 ### The `<meta>` tag
 The META elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry date, a list of keywords, document author etc.
 The <meta> tag is used to provide such additional information. This tag is an empty element and so does not have a closing tag but it carries information within its attributes.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Information About Your Pages</title> <meta name="description"
+content="An Essay on Installation Art" /> <meta name="keywords"
+content="installation, art, opinion" /> <meta name="robots"
+content="nofollow" /> <meta http-equiv="author"
+content="Jon Duckett" /> <meta http-equiv="pragma"
+content="no-cache" /> <meta http-equiv="expires"
+content="Fri, 04 Apr 2014 23:59:59 GMT" /> </head>
+<body>
+  </body>
+</html>
+```
+
+### Escape Characters
+
+Escapes or unescapes an HTML file removing traces of offending characters that could be wrongfully interpreted as markup.
+
+**The following characters are reserved in HTML and must be replaced with their corresponding HTML entities:**
+
+" is replaced with &quot;
+& is replaced with &amp;
+< is replaced with &lt;
+> is replaced with &gt;
+
+## HTML5 layout
+Html went through some improvements to come to it is final version which called html5.
+Html5 interduced a new way of using tags it is repalsed using `<dev></dev>` tags with new tags the aim of it just to make the document readable and meaningfull.
+
+![Html5](https://stuyhsdesign.files.wordpress.com/2016/05/yoko-html5.png)
+
+
+## Process & Design
+Building websites or web application is not hard if you do it right. Any good developer can build a website in few days or maybe just in few hours depenging on the scal of the project. But the main key here is this website achieve the goal for which it was created ?. I don't thinks so. You should build your website with a plan that  starts with gathring some inforamtion a bout the targeted audiance and this stage of building the website called Design. 
+
+### What questions should I ask to understand the audience's needs?
+1. Who is the site For ?
+Every website should be designed for the target audience and not just for yourself or the site owner.You should know if your vistitors are individuals or companies and if they are individuals you should know thier age and the area they live in .. etc.
+
+2. Why PeoPle visit your Website ?
+Here you should search for your vistors Key motivations and specific goals.
+
+3. What your visitors are trying to achieve ?
+You should create a list of reasons why people would be coming to your site. 
+
+4. What information your visitors need ?
+Now you need to work out what information they need in order to achieve their goals quickly and effectively.
+
+5. How often people will visit your site ?
+Working out how often people are likely to revisit your site gives you an indication for how often you should update the site.
+
+### Site maps
+After you gather the informations that you need you should start to organize them in hierarchical manner.
+
+![site map](https://i.pinimg.com/originals/7d/65/0e/7d650ed5c0e658b6f4afb365b751f44f.png)
+
+### WireFrames
+A wireframe is a simple sketch of the key information that needs to go on each page of a site. It shows the hierarchy of the information and how much space it might require.
+The wireframes make design easier because you know what information needs to appear on which page before considering
+how the the page should look.
+
+![wireframe](https://www.conceptncontent.com/wp-content/uploads/2019/06/wireframe-cover.jpeg)
+
+## Getting your message across using Design
+- Design is about communication. Visual hierarchy helps visitors understand what you are trying to tell them.
+- You can differentiate between pieces of information using size, color, and style.
+- You can use grouping and similarity to help simplify the information you present.
