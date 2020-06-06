@@ -179,68 +179,21 @@ how the the page should look.
 - You can differentiate between pieces of information using size, color, and style.
 - You can use grouping and similarity to help simplify the information you present.
 
-## What is JavaScript?
+## Programming with JavaScript
 
-It is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)It consider high level programing language and it is intrepted language which mean it excuted line by line.
+### What is a script and how do I create one ?
 
- It is best to keep JavaScript code in its own JavaScript file. JavaScript files are text files (like HTML pages and CSS style sheets), but they have the .js extension.
+A script is a series of instructions that a computer can follow to achieve a goal. To write a script, you need to first state your goal and then list the tasks that need to be completed in order to achieve it.
 
-If you view the source code of the page in the browser, the JavaScript will not have changed the HTML, because the script works with the model of the web page that the browser has created.
+### Designing a script tasks
 
-## Basic javascript inctrutions
+When you pick a goal for your software if it's personal project or you working on project for client you should break down that goal into tasks to always achieve them.
 
-### Variables
-A script will have to temporarily store the bits of information it needs to do its job. It can store this data in variables.
+You can consider talking to the client to write down the tasks to achieve that goal. Then you probaply would like to draw a flowchart to see things clearly.
 
-#### How I can declare a variable ?
+see this example of a flowchart that describs the tasks of solving problem related to a lamp not working
 
-You should use key word Var and then type the name of the variable and you can assign value to it as the following figure
+![lamp](https://www.conceptdraw.com/How-To-Guide/picture/samples-of-flowchart.png)
 
-![variables](https://www.bookofnetwork.com/images/javascript-images/1.png)
-
-#### There is some rules of how we can name the variable:
-- Variable names cannot contain spaces.
-- Variable names must begin with a letter, an underscore (_) or a dollar sign ($).
-- Variable names can only contain letters, numbers, underscores, or dollar signs.
-- Variable names are case-sensitive.
-- Certain words may not be used as variable names, because they have other meanings within JavaScript.
-
-### Datatype in Javascript ?
-#### there is three main primitive data type to be considered now 
-- Boolean — true or false
-- Number — integers, floats, etc
-- String — an array of characters i.e words
-
-### javascript comments
-When writing code you may have some complex logic that is confusing, this is a perfect opportunity to include some comments in the code that will explain what is going on. Not only will this help you remember it later on, but if you someone else views your code, they will also be able to understand the code (hopefully)!
-
-#### creating single line comments
-To create a single line comment in JavaScript, you place two slashes "//" in front of the code or text you wish to have the JavaScript interpreter ignore. When you place these two slashes, all text to the right of them will be ignored, until the next line.
-
-```javscript
-<script type="text/javascript">
-<!--
-// This is a single line JavaScript comment
-
-document.write("I have comments in my JavaScript code!");
-//document.write("You can't see this!");
-//-->
-</script>
-```
-#### creating multi-line comments
-Although a single line comment is quite useful, it can sometimes be burdensome to use when disabling long segments of code or inserting long-winded comments. For this large comments you can use JavaScript's multi-line comment that begins with /* and ends with */.
-
-```javascript
-<script type="text/javascript">
-<!--
-document.write("I have multi-line comments!");
-/*document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");*/
-//-->
-</script>
-```
+there is a big task you con break it down to steps. These steps are the foundation stones
+of your software. So after you define your steps you can go to coding. But you might consider that computers approach tasks in a different way than humans, so your instructions must let the computer solve the task prggrammatically.
