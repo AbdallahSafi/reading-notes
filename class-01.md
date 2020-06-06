@@ -22,9 +22,9 @@ It is refer to hyper text mark up langauge. You have to know it is not a program
 **Check this image to see how we structue data using html**
 ![Html](https://help.madcapsoftware.com/flare2017r3/Content/Resources/Images/Flare/page_structure_example.png)
 
-* The <html> element is the root element of an HTML page
-* The <head> element contains meta information about the HTML page
-* The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
-* The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs,  images, hyperlinks, tables, lists, etc.
-* The <h1> element defines a large heading
-* The <p> element defines a paragraph
+* The `<html>` element is the root element of an HTML page
+* The `<head>` element contains meta information about the HTML page
+* The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+* The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs,  images, hyperlinks, tables, lists, etc.
+* The `<h1>` element defines a large heading
+* The `<p>` element defines a paragraph
