@@ -16,4 +16,3 @@ Read Num | Read title | Read link
 ------------ | ------------- | --------------
 01 | Introductory HTML and JavaScript | [Click here](https://abdallahsafi.github.io/reading-notes/class-01)
 
-xsdsd
