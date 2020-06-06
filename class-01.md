@@ -28,3 +28,8 @@ It is refer to hyper text mark up langauge. You have to know it is not a program
 * The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs,  images, hyperlinks, tables, lists, etc.
 * The `<h1>` element defines a large heading
 * The `<p>` element defines a paragraph
+
+## Extra Markup
+### `<!DOCTYPE html>`
+The `<!DOCTYPE html>` declaration is used to inform a website visitor's browser that the document being rendered is an HTML document. While not actually an HTML element itself, every HTML document should being with a DOCTYPE declaration to be compliant with HTML standards.
+
