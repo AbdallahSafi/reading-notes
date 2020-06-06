@@ -11,5 +11,5 @@ Let’s start with the most obvious way of using the internet: You visit a websi
 5. The response of the server is parsed
 6. The page is rendered and displayed
 
-[web](assets/image1.png)
+![web](assets/image1.png)
 
