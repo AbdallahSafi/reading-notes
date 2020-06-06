@@ -30,6 +30,10 @@ It is refer to hyper text mark up langauge. You have to know it is not a program
 * The `<p>` element defines a paragraph
 
 ## Extra Markup
-### `<!DOCTYPE html>`
+### DOCTYPES
 The `<!DOCTYPE html>` declaration is used to inform a website visitor's browser that the document being rendered is an HTML document. While not actually an HTML element itself, every HTML document should being with a DOCTYPE declaration to be compliant with HTML standards.
+### Comments in HTML
+You can add comments to your HTML source by using the following syntax:
+`<!-- Write your comments here -->`
+
 
