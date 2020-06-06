@@ -102,4 +102,9 @@ Example:
 `<p>Note: this is an editorial piece and does not reflect the official opinion of the <span>Sun Journal.</span></p>`
 
 
+### Iframe
+ The `<iframe>` tag defines a rectangular region within the document in which the browser can display a separate document, including scrollbars and borders. An inline frame is used to embed another document within the current HTML document.
 
+### The `<meta>` tag
+The META elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry date, a list of keywords, document author etc.
+The <meta> tag is used to provide such additional information. This tag is an empty element and so does not have a closing tag but it carries information within its attributes.
