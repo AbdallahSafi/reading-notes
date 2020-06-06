@@ -66,3 +66,16 @@ h2.demo {
 </body>
 </html>
 ```
+
+### Block Elements
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+
+Example:
+`<div>Hello World</div>`
+
+
+### Inline Elements
+An inline element does not start on a new line and only takes up as much width as necessary.
+
+Example:
+`<span>Hello World</span>`
