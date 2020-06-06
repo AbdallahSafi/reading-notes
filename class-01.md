@@ -151,7 +151,7 @@ Building websites or web application is not hard if you do it right. Any good de
 
 Every website should be designed for the target audience and not just for yourself or the site owner.You should know if your vistitors are individuals or companies and if they are individuals you should know thier age and the area they live in .. etc.
 
-2. Why PeoPle visit your Website ?
+2. Why People visit your Website ?
 
 Here you should search for your vistors Key motivations and specific goals.
 
