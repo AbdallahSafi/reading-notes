@@ -1,9 +1,13 @@
 # Code 201 Reading Notes
 
 Here I put my notes, which I collect when I read the web development topics required of me during code 201.
-Those notes will contain :
-- How to build a web page using Html, css, and Javascript
-- Career coaching 
+Those notes will cover :
+- HTML5 and CSS3
+- Object-Oriented Programming
+- Introductory Data Structures & Algorithms
+- Document Object Model (DOM) Manipulation & Traversal
+- Multiple Approaches to Page Layout
+- Using GitHub Repos and Sharing Code With Project Teams
 
 
 ## Table of content
