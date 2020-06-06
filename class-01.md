@@ -19,5 +19,5 @@ The moment you enter this address in your browser and you hit ENTER, a lot of di
 ### HTML
 It is refer to hyper text mark up langauge. You have to know it is not a programming language instead it is a way of structuring data on the web using special write to do this purpose. In HTML we wrap every piece of data in tags that tags define how to present thies information. Tags it has two brakets and a charters between them like <p>data</p> each tag has an opening and closeing and every tag has it purpose. The opening tags can carry attributes, which tell us more about the content of that element. and every attribue has a name and value.
 
-check this image to see how we structue data using html
+**Check this image to see how we structue data using html**
 ![Html](https://help.madcapsoftware.com/flare2017r3/Content/Resources/Images/Flare/page_structure_example.png)
