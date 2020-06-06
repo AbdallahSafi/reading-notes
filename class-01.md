@@ -37,4 +37,8 @@ You can add comments to your HTML source by using the following syntax:
 
 `<!-- Write your comments here -->`
 
+### ID attribute
+The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).
+The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
 
+`<h1 id="myHeader">Hello World!</h1>`
