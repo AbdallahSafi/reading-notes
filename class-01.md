@@ -71,6 +71,7 @@ h2.demo {
 A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
 
 Example:
+
 `<div>Hello World</div>`
 
 
@@ -78,4 +79,27 @@ Example:
 An inline element does not start on a new line and only takes up as much width as necessary.
 
 Example:
+
 `<span>Hello World</span>`
+
+### Grouping text & Elements in a block
+The `<div>` element does not inherently represent anything. Instead, it's used to group content so it can be easily styled using the class or id attributes.
+
+Example:
+```
+<div class="warning">
+    <img src="/media/examples/leopard.jpg"
+         alt="An intimidating leopard.">
+    <p>Beware of the leopard</p>
+</div>
+```
+
+### Grouping text & Elements inline
+Spans are similar to divs, except they are inline elements. You might use them to group words together, since words appear inline and not each on their own line.
+
+Example:
+
+`<p>Note: this is an editorial piece and does not reflect the official opinion of the <span>Sun Journal.</span></p>`
+
+
+
