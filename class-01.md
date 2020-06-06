@@ -210,7 +210,8 @@ Objects can have:
 2. Create a model of the page and store it in memory. 
 3. Use a rendering engine to show the page on screen. 
 
-## How Html,Css & JavaScript fit together ? 
+## The ABC of Programming
+### How Html,Css & JavaScript fit together ? 
 - **html** (Content Layer): This is where the content of the page lives. The HTML gives the page structure and adds semantics.
 - **Css** (Presentation Layer): The CSS enhances the HTML page with rules that state how the HTML content is presented.
 - **JavaScript** (Behavior Layer) : This is where we can change how the page behaves, adding interactivity.
@@ -221,4 +222,7 @@ These three layers form the basis of a popular approach to building web pages ca
 -  It is best to keep JavaScript code in its own JavaScript file. JavaScript files are text files (like HTML pages and CSS style sheets), but they have the . j s extension.
 - The HTML `<script>` element is used in HTML pages to tell the browser to load the JavaScript file.
 -  If you view the source code of the page in the browser, the JavaScript will not have changed the HTML, because the script works with the model of the web page that the browser has created.
+
+### How to use Objects & Methods ?
+![objects](assets/image2.png)
 
