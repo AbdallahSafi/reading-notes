@@ -226,3 +226,6 @@ These three layers form the basis of a popular approach to building web pages ca
 ### How to use Objects & Methods ?
 ![objects](assets/image2.png)
 
+### **NOTE**: 
+JavaScript runs where it is found in the Html. When the browser comes across a `<script>`element, it stops to load the script and then checks to see if it needs to do anything.
+
