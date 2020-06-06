@@ -197,3 +197,16 @@ see this example of a flowchart that describs the tasks of solving problem relat
 
 there is a big task you con break it down to steps. These steps are the foundation stones
 of your software. So after you define your steps you can go to coding. But you might consider that computers approach tasks in a different way than humans, so your instructions must let the computer solve the task prggrammatically.
+
+### How do computers fit in with the world around them ?
+Computers create models of the world using data and this models use objects to represent physical things.
+Objects can have:
+- **Properties**: tell us about the object
+- **Methods**: perform tasks using the properties of the object
+- **Events**: triggered when a user interacts with the computer
+
+### How a browser sees a web page ?
+1. Receive a page as Html code. 
+2. Create a model of the page and store it in memory. 
+3. Use a rendering engine to show the page on screen. 
+
