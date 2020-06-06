@@ -42,3 +42,27 @@ The id attribute specifies a unique id for an HTML element (the value must be un
 The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
 
 `<h1 id="myHeader">Hello World!</h1>`
+
+### Class attribute
+The class attribute in HTML is used to set one or more classnames for an element. With the specified class name you can work it through CSS and point in a stylesheet.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2.demo {
+   color: orange;
+   background-color: black;
+}
+</style>
+</head>
+<body>
+<h1>Resources</h1>
+   <h2 class="demo">Text Tutorials</h1>
+   <h2 class="demo">Video Tutorials</h1>
+   <h2 class="demo">Interview Questions and Answers</h1>
+   <h2 class="demo">Online Quiz</h1>
+</body>
+</html>
+```
