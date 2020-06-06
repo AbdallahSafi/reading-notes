@@ -130,12 +130,12 @@ content="Fri, 04 Apr 2014 23:59:59 GMT" /> </head>
 Escapes or unescapes an HTML file removing traces of offending characters that could be wrongfully interpreted as markup.
 
 **The following characters are reserved in HTML and must be replaced with their corresponding HTML entities:**
-
+```
 " is replaced with &quot;
 & is replaced with &amp;
 < is replaced with &lt;
 > is replaced with &gt;
-
+```
 ## HTML5 layout
 Html went through some improvements to come to it is final version which called html5.
 Html5 interduced a new way of using tags it is repalsed using `<dev></dev>` tags with new tags the aim of it just to make the document readable and meaningfull.
