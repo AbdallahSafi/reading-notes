@@ -179,12 +179,12 @@ how the the page should look.
 
 ![wireframe](https://www.conceptncontent.com/wp-content/uploads/2019/06/wireframe-cover.jpeg)
 
-## Getting your message across using Design
+### Getting your message across using Design
 - Design is about communication. Visual hierarchy helps visitors understand what you are trying to tell them.
 - You can differentiate between pieces of information using size, color, and style.
 - You can use grouping and similarity to help simplify the information you present.
 
-## Programming with JavaScript
+## The ABC of Programming
 
 ### What is a script and how do I create one ?
 
@@ -215,7 +215,7 @@ Objects can have:
 2. Create a model of the page and store it in memory. 
 3. Use a rendering engine to show the page on screen. 
 
-## The ABC of Programming
+
 ### How Html,Css & JavaScript fit together ? 
 - **html** (Content Layer): This is where the content of the page lives. The HTML gives the page structure and adds semantics.
 - **Css** (Presentation Layer): The CSS enhances the HTML page with rules that state how the HTML content is presented.
