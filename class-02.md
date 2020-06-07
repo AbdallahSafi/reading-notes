@@ -139,13 +139,13 @@ element,element,..	| div, p | Selects all `<div>` elements and all `<p>` element
 
 There are 4 rules that govirn this:
 
-1. **Sort by Importance**
+- **Sort by Importance**
 
 If there are any conflicts in your css, there is an order of importance in which some selectors are more important than others:
 an ID will win out over a class
 a class will win out over a tag
 
-2. **Sort by weight**
+- **Sort by weight**
 
 The styles are checked in the following order, each subsequent style sheet has a greater weight than the previous.
 
@@ -155,7 +155,7 @@ Author: Style Sheet - Linked
 Author: Style Sheet - Embedded in the head of the web page
 Author: Style Sheet - Inline within the body of the web page
 
-3. **Sort by Specificity**
+- **Sort by Specificity**
 
 Determines how specific the rule is
 
@@ -175,7 +175,7 @@ color: #f00
 ```
 This rule wins out because it is the most specific of the three.
 
-4. **Sort by Order**
+- **Sort by Order**
 
 f two rules have the same properties, specificy and values the one that appears later in the css will be the one that the browser uses but:
 ! importance has more weight than anything else regardless of its position within the style sheet;
