@@ -178,9 +178,10 @@ color: #f00
 #content p em{
 color: #f00
 }
-#content  p em{ color: #foo}
 ```
-This rule wins out because it is the most specific of the three.
+
+The last rule above rule wins out because it is the most specific of the three.
+
 
 - **Sort by Order**
 
