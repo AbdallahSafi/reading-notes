@@ -15,4 +15,6 @@ Those notes will cover :
 Read Num | Read title | Read link
 ------------ | ------------- | --------------
 01 | Introductory HTML and JavaScript | [Click here](https://abdallahsafi.github.io/reading-notes/class-01)
+02 | HTML, CSS, and Basic JavaScript Instructions | [Click here](https://abdallahsafi.github.io/reading-notes/class-02)
+
 
