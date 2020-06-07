@@ -142,7 +142,9 @@ There are 4 rules that govirn this:
 - **Sort by Importance**
 
 If there are any conflicts in your css, there is an order of importance in which some selectors are more important than others:
+
 an ID will win out over a class
+
 a class will win out over a tag
 
 - **Sort by weight**
@@ -150,10 +152,15 @@ a class will win out over a tag
 The styles are checked in the following order, each subsequent style sheet has a greater weight than the previous.
 
 Default: Browser
+
 User: Style Sheet
+
 Author: Style Sheet - Linked
+
 Author: Style Sheet - Embedded in the head of the web page
+
 Author: Style Sheet - Inline within the body of the web page
+
 
 - **Sort by Specificity**
 
