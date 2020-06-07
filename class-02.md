@@ -184,3 +184,9 @@ p em{
 color: #f00 !important;
 }
 ```
+
+### Inheritance in css
+
+Inheritance is the mechanism by which certain properties are passed on from a parent element down to its children, in the same fashion as genetics: if parents have blue eyes, their children will probably also have blue eyes.
+
+Not all CSS properties are inherited, because it does not make sense for some of them to be. For instance, margins and width are not inherited
