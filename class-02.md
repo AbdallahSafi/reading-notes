@@ -180,13 +180,13 @@ color: #f00
 }
 ```
 
-The last rule above rule wins out because it is the most specific of the three.
+The last rule above wins out because it is the most specific of the three.
 
 
 - **Sort by Order**
 
-f two rules have the same properties, specificy and values the one that appears later in the css will be the one that the browser uses but:
-! importance has more weight than anything else regardless of its position within the style sheet;
+If two rules have the same properties, specificy and values the one that appears later in the css will be the one that the browser uses but `! importance` has more weight than anything else regardless of its position within the style sheet;
+
 ```
 p em{
 color: #f00 !important;
