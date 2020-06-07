@@ -77,10 +77,19 @@ The `<address>` tag defines the contact information for the author/owner of a do
 
 ### Changes to content
 
- The `<ins>` tag defines a text that has been inserted into a document. Browsers will usually underline inserted text.
+The `<ins>` tag defines a text that has been inserted into a document. Browsers will usually underline inserted text.
 
- The `<del>` tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text.
+The `<del>` tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text.
 
 The `<s>` tag specifies text that is no longer correct, accurate or relevant. The text will be displayed with a line through it.
 
+## Introducing CSS
 
+Css works by associating rules with Html elements. These rules specify how the element should be displayed.
+a Css rule conatins to parts, selector and a decleration.
+
+![css rule](assets/image3.png)
+
+Css rule can have more than one decleration. And any decleration contain two parts: property and value
+
+![css rule](assets/Image4.png)
