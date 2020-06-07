@@ -25,11 +25,13 @@ A paragraph always starts on a new line, and is usually a block of text.
  **Bold**
 
  The HTML `<b>` element defines bold text, without any extra importance.
+
  `<b>This text is bold</b>`
 
  *Italic*
 
  The HTML `<i>` element defines italic text, without any extra importance.
+ 
 `<i>This text is italic</i>`
 
 
