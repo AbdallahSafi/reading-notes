@@ -415,7 +415,7 @@ Operator | Description | Example | Result in y | Result in x
 -	| Subtraction	| x = y - 2	| y = 5	| x = 3	
 *	| Multiplication	| x = y * 2	| y = 5	| x = 10	
 /	| Division	| x = y / 2	| y = 5	| x = 2.5	
-%	| Modulus | (division remainder) | x = y % 2 | y = 5 | x = 1	
+%	| Modulus  | x = y % 2 | y = 5 | x = 1	
 ++	| Increment	| x = ++y	| y = 6	| x = 6	
 --	| Decrement	| x = --y	| y = 4	| x = 4	
 
@@ -427,3 +427,24 @@ Given that text1 = "Good ", text2 = "Morning", and text3 = "", the table below e
 Operator | Example | text1 | text2 | text3	
 +	| text3 = text1 + text2	| "Good "	| "Morning"	 | "Good Morning"	
 +=	| text1 += text2	| "Good Morning"	| "Morning"	| ""
+
+### Conditional Statements
+
+Very often when you write code, you want to perform different actions for different decisions.
+
+You can use conditional statements in your code to do this.
+
+Use `if` to specify a block of code to be executed, if a specified condition is true
+Use `else` to specify a block of code to be executed, if the same condition is false
+Use `else if` to specify a new condition to test, if the first condition is false
+
+#### Example
+```
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+```
