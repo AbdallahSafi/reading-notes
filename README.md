@@ -20,6 +20,7 @@ Read Num | Read title | Read link
 02 | HTML, CSS, and Basic JavaScript Instructions | [Click here](https://abdallahsafi.github.io/reading-notes/class-02)
 
 
+
 > “Each of us is a unique strand in the intricate web of life and here to make a contribution.”
 > ― Deepak Chopra
 
