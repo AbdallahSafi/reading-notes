@@ -19,7 +19,7 @@ Read Num | Read title | Read link
 01 | Introductory HTML and JavaScript | [Click here](https://abdallahsafi.github.io/reading-notes/class-01)
 02 | HTML, CSS, and Basic JavaScript Instructions | [Click here](https://abdallahsafi.github.io/reading-notes/class-02)
 03 | HTML Lists, CSS Boxes, JS Control Flow | [Click here](https://abdallahsafi.github.io/reading-notes/class-03)
-
+04 | HTML Lists, CSS Boxes, JS Control Flow | [Click here](https://abdallahsafi.github.io/reading-notes/class-03)
 
 
 > “Each of us is a unique strand in the intricate web of life and here to make a contribution.”
