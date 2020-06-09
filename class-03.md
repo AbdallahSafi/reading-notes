@@ -47,6 +47,7 @@ The numbering of items in an ordered list typically starts with 1. However, if y
 ```
 
 **Example: HTML Description Lists**
+
 The description list is created using <dl> element. The <dl> element is used in conjunction with the <dt> element which specify a term, and the <dd> element which specify the term's definition.
 
 ``` html
