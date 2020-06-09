@@ -12,7 +12,7 @@ let see some examples for each one of them.
 
 **Example: HTML Unordered Lists**
 
-```
+``` html
 <ul>
     <li>Chocolate Cake</li>
     <li>Black Forest Cake</li>
@@ -20,8 +20,4 @@ let see some examples for each one of them.
 </ul>
 ```
 output is:
-```
-. Chocolate Cake
-. Black Forest Cake
-. Pineapple Cake
-```
+![unlists](assets/image6.png);
