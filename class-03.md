@@ -192,3 +192,41 @@ div {
   padding-left: 80px;
 }
 ```
+
+**Centered content**
+
+To allign text you can use text-allign property
+
+```css
+p {
+text-align: center;
+}
+```
+
+**The display Property**
+
+The display property specifies if/how an element is displayed.
+
+Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
+
+- Examples of block-level elements:
+
+```
+<div>
+<h1> - <h6>
+<p>
+<form>
+<header>
+<footer>
+<section>
+```
+
+- Examples of inline elements:
+
+```
+<span>
+<a>
+<img>
+```
+
+*Note*: CSS3 has introduced the ability to create image borders and rounded borders.
