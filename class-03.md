@@ -70,3 +70,49 @@ ol {
 }
 ```
 this rule changes the marker type to roman numbers in ordered list.
+
+## CSS Boxes
+
+At first you should know that Css deal with every element in Html as it has a box.
+and from their you will have some rules in css can be applied to manage these boxes.
+
+**CSS Height and Width**
+
+Set the height and width of another <div> element:
+
+```css
+div {
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
+}
+```
+
+**Setting max-width**
+
+The max-width property is used to set the maximum width of an element.
+
+The problem with the `<div>` above occurs when the browser window is smaller than the width of the element (500px). The browser then adds a horizontal scrollbar to the page.
+
+Using max-width instead, in this situation, will improve the browser's handling of small windows
+
+This `<div>` element has a height of 100 pixels and a max-width of 500 pixels: 
+
+```css
+div {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+```
+
+**CSS Overflow**
+
+The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+The overflow property has the following values:
+
+- visible - Default. The overflow is not clipped. The content renders outside the element's box
+- hidden - The overflow is clipped, and the rest of the content will be invisible
+- scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+- auto - Similar to scroll, but it adds scrollbars only when necessary
