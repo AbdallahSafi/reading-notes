@@ -116,3 +116,25 @@ The overflow property has the following values:
 - hidden - The overflow is clipped, and the rest of the content will be invisible
 - scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
 - auto - Similar to scroll, but it adds scrollbars only when necessary
+
+**CSS Border Properties**
+
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+- Example
+
+```css
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+```
+
+![border](assets/image9.png)
