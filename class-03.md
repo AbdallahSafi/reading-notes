@@ -138,3 +138,57 @@ p.mix {border-style: dotted dashed solid double;}
 ```
 
 ![border](assets/image9.png)
+
+you can add the css style to border with one lie using
+
+**CSS Border - Shorthand Property**
+
+The border property is a shorthand property for the following individual border properties:
+
+border-width
+border-style 
+border-color
+
+```css
+p {
+  border: 5px solid red;
+}
+```
+
+**Rounded border**
+for rounded borders use radius
+
+Example:
+
+```css
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+```
+
+**CSS Margins**
+
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+```css
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+```
+
+**CSS Padding**
+
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+```css
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+```
