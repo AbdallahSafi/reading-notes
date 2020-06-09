@@ -21,7 +21,7 @@ let see some examples for each one of them.
 ```
 output is:
 ```
-- Chocolate Cake
-- Black Forest Cake
-- Pineapple Cake
+. Chocolate Cake
+. Black Forest Cake
+. Pineapple Cake
 ```
