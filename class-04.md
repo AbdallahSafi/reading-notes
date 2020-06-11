@@ -107,7 +107,7 @@ Once you have floated an element, all of the following elements will wrap around
 
 **Positioning**
 
-o remove an element from normal flow or shift it around from its place in normal flow, you can use the position property in CSS.
+Remove an element from normal flow or shift it around from its place in normal flow, you can use the position property in CSS.
 
 *RELATIVE POSITIONING*
 
