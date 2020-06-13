@@ -126,7 +126,7 @@ Method	| Description
 element.setAttribute(attribute, value)	| Change the attribute value of an HTML element
 
 
-Adding and Deleting Elements:
+- Adding and Deleting Elements:
 
 Method	| Description
 document.createElement(element)	| Create an HTML element
