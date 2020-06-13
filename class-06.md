@@ -20,4 +20,32 @@ You can make the problem easier to understand if you cut down it to little probl
 
 You should make sure to understand the problem from the customer by asking the right questions.
 
+# Object Literals
 
+Objects group together a set of variables and functions to create a model of a something you would recognize from the real world.
+
+- In an object: Variables become known as properties. 
+- In an object: Functions become known as methods. 
+
+Example: 
+```javascript
+var person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+```
+
+**Creating Objects**
+
+![image](assets/image14.png)
+
+
+**Accessing an Object**
+
+![image](assets/image15.png)
+
+also you can use square brackets to access an object property
+
+`var hotelName = hotel[name];`
