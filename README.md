@@ -22,6 +22,8 @@ Read Num | Read title | Read link
 04 | HTML Links, CSS Layout, JS Functions| [Click here](https://abdallahsafi.github.io/reading-notes/class-04)
 05 | HTML Images; CSS Color & Text| [Click here](https://abdallahsafi.github.io/reading-notes/class-05)
 06 | JS Object Literals; The DOM | [Click here](https://abdallahsafi.github.io/reading-notes/class-06)
+06 | HTML Tables; JS Constructor Functions | [Click here](https://abdallahsafi.github.io/reading-notes/class-07)
+
 
 
 
