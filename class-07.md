@@ -349,7 +349,7 @@ prototype	|  Allows you to add properties and methods to an object
 
 
 #### Number Methods
-Method | Description
+Method       | Description
 ------------ | -------------
 isFinite() | Checks whether a value is a finite number
 isInteger() | Checks whether a value is an integer
@@ -363,7 +363,7 @@ toString() | Converts a number to a string
 valueOf() | Returns the primitive value of a number
 
 
-Not Great
+Not Great Great
 
 ## Math Object
 
