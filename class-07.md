@@ -320,3 +320,110 @@ toString()	| Returns the value of a String object
 toUpperCase()	| Converts a string to uppercase letters
 trim()	| Removes whitespace from both ends of a string
 valueOf()	| Returns the primitive value of a String object
+
+## Number object
+
+JavaScript has only one type of number.
+
+Numbers can be written with, or without, decimals:
+
+```javascript
+var x = 3.14;     // A number with decimals
+var y = 34;       // A number without decimals
+var x = 123e5;    // 12300000
+var y = 123e-5;   // 0.00123
+```
+
+#### Number Properties
+Property	| Description
+----------- | ------------
+constructor	| Returns the function that created JavaScript's Number prototype
+MAX_VALUE	| Returns the largest number possible in JavaScript
+MIN_VALUE	| Returns the smallest number possible in JavaScript
+NEGATIVE_INFINITY	| Represents negative infinity (returned on overflow)
+NaN	Represents | a "Not-a-Number" value
+POSITIVE_INFINITY	| Represents infinity (returned on overflow)
+prototype	| Allows you to add properties and methods to an object
+
+
+#### Number Methods
+Method	| Description
+-------- | ------------
+isFinite()	| Checks whether a value is a finite number
+isInteger()	| Checks whether a value is an integer
+isNaN()	| Checks whether a value is Number.NaN
+isSafeInteger()	| Checks whether a value is a safe integer
+toExponential(x)	| Converts a number into an exponential notation
+toFixed(x)	| Formats a number with x numbers of digits after the decimal point
+toLocaleString()	| Converts a number into a string, based on the locale settings
+toPrecision(x)	| Formats a number to x length
+toString()	| Converts a number to a string
+valueOf()	| Returns the primitive value of a number
+
+## Math Object
+
+The Math object allows you to perform mathematical tasks.
+
+Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it:
+
+```javascript
+var x = Math.PI;            // Returns PI
+var y = Math.sqrt(16);      // Returns the square root of 16
+```
+
+#### Math Object Properties
+Property	| Description
+------------- | -------------
+E	| Returns Euler's number (approx. 2.718)
+LN2	| Returns the natural logarithm of 2 (approx. 0.693)
+LN10	| Returns the natural logarithm of 10 (approx. 2.302)
+LOG2E	| Returns the base-2 logarithm of E (approx. 1.442)
+LOG10E	| Returns the base-10 logarithm of E (approx. 0.434)
+PI	| Returns PI (approx. 3.14)
+SQRT1_2	| Returns the square root of 1/2 (approx. 0.707)
+SQRT2	| Returns the square root of 2 (approx. 1.414)
+
+
+#### Math Object Methods
+Method	| Description
+-------- | ------------
+abs(x)	| Returns the absolute value of x
+acos(x)	| Returns the arccosine of x, in radians
+acosh(x)	| Returns the hyperbolic arccosine of x
+asin(x)	| Returns the arcsine of x, in radians
+asinh(x)	| Returns the hyperbolic arcsine of x
+atan(x)	| Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+atan2(y, x)	| Returns the arctangent of the quotient of its arguments
+atanh(x)	| Returns the hyperbolic arctangent of x
+cbrt(x)	| Returns the cubic root of x
+ceil(x)	| Returns x, rounded upwards to the nearest integer
+cos(x)	| Returns the cosine of x (x is in radians)
+cosh(x)	| Returns the hyperbolic cosine of x
+exp(x)	| Returns the value of Ex
+floor(x)	| Returns x, rounded downwards to the nearest integer
+log(x)	| Returns the natural logarithm (base E) of x
+max(x, y, z, ..., n)	| Returns the number with the highest value
+min(x, y, z, ..., n)	| Returns the number with the lowest value
+pow(x, y)	| Returns the value of x to the power of y
+random()	| Returns a random number between 0 and 1
+round(x)	| Rounds x to the nearest integer
+sin(x)	| Returns the sine of x (x is in radians)
+sinh(x)	| Returns the hyperbolic sine of x
+sqrt(x)	| Returns the square root of x
+tan(x)	| Returns the tangent of an angle
+tanh(x)	| Returns the hyperbolic tangent of a number
+trunc(x)	| Returns the integer part of a number (x)
+
+## Date Object
+The Date object is used to work with dates and times.
+
+Date objects are created with new Date().
+
+There are four ways of instantiating a date
+
+```javascript
+var d = new Date();
+var d = new Date(milliseconds);
+var d = new Date(dateString);
+var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
+```
