@@ -151,3 +151,172 @@ The three elements for separating the head, body, and foot of a table are −
 </table>
 ```
 ````
+
+# Functions, Methods, and Objects”
+
+## Creating a JavaScript Object
+
+Using the JavaScript Keyword new:
+
+```javascript
+var person = new Object();
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
+```
+
+### Updating an object
+
+```javascript
+var person = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue" };
+
+var x = person;
+x.age = 10; // This will change both x.age and person.age
+delete person lastname // this will delete the person lastname proberty
+```
+
+### Creatin many objects with constructor
+
+```javascript
+function Vehicle(name, maker) {
+   this.name = name;
+   this.maker = maker;
+}
+let car1 = new Vehicle(’Fiesta’, 'Ford’);
+let car2 = new Vehicle(’Santa Fe’, 'Hyundai’)
+console.log(car1.name);    //Output: Fiesta
+console.log(car2.name);    //Output: Santa Fe
+```
+
+### What is this?
+
+The JavaScript this keyword refers to the object it belongs to.
+
+It has different values depending on where it is used:
+
+- In a method, this refers to the owner object.
+- Alone, this refers to the global object.
+- In a function, this refers to the global object.
+- In a function, in strict mode, this is undefined.
+- In an event, this refers to the element that received the event.
+- Methods like call(), and apply() can refer this to any object.
+
+### Arrays are objects
+
+Objects are an unordered map from string keys to values, arrays are an ordered list of values (with integer keys). That's the main difference. They're both non-primitive, as they're composed of multiple values, which also implies pass-by-reference in JavaScript.
+
+Arrays are also a kind of object, though, so you can attach extra properties to them, access their prototype and so on.
+
+In your revised example, you're only taking advantage of the fact that an array is actually an object, i.e. you can set any property on them. You shouldn't do that. If you don't need an ordered list of values, use a plain object.
+
+### Browser object model
+
+The Browser Object Model (BOM) is used to interact with the browser.
+
+The default object of browser is window means you can call all the functions of window by specifying window or directly.
+
+![image](https://static.javatpoint.com/images/javascript/bom.jpg)
+
+| Method       | Description                                                                             |
+| ------------ | --------------------------------------------------------------------------------------- |
+| alert()      | displays the alert box containing message with ok button.                               |
+| confirm()    | displays the confirm dialog box containing message with ok and cancel button.           |
+| prompt()     | displays a dialog box to get input from the user.                                       |
+| open()       | opens the new window.                                                                   |
+| close()      | closes the current window.                                                              |
+| setTimeout() | performs action after specified time like calling function, evaluating expressions etc. |
+
+Example:
+
+```javascript
+//Example of alert() in javascript
+function msg() {
+  alert("Hello Alert Box");
+}
+
+//Example of confirm() in javascript
+function msg() {
+  var v = confirm("Are u sure?");
+  if (v == true) {
+    alert("ok");
+  } else {
+    alert("cancel");
+  }
+}
+```
+
+# Document object model
+
+JavaScript can access all the elements in a webpage making use of Document Object Model (DOM). In fact, the web browser creates a DOM of the webpage when the page is loaded. The DOM model is created as a tree of objects like this:
+
+![image](https://www.guru99.com/images/JavaScript/javascript8_1.png)
+
+- Changing HTML Elements:
+
+Property | Description
+--------- | -----------
+element.innerHTML =  new html content	| Change the inner HTML of an element
+element.attribute = new value	| Change the attribute value of an HTML element
+element.style.property = new style	| Change the style of an HTML element
+Method	| Description
+element.setAttribute(attribute, value)	| Change the attribute value of an HTML element
+
+
+- Adding and Deleting Elements:
+
+Method	| Description
+document.createElement(element)	| Create an HTML element
+document.removeChild(element)	| Remove an HTML element
+document.appendChild(element)	| Add an HTML element
+document.replaceChild(new, old)	| Replace an HTML element
+document.write(text)	| Write into the HTML output stream
+
+## Global object
+
+In JavaScript, there's always a global object defined. In a web browser, when scripts create global variables, they're created as members of the global object.
+
+###  Strings Object
+
+The String object lets you work with a series of characters; it wraps Javascript's string primitive data type with a number of helper methods.
+
+As JavaScript automatically converts between string primitives and String objects, you can call any of the helper methods of the String object on a string primitive.
+
+`var val = new String(string);`
+
+#### String Properties
+
+Property | Description
+--------- | ----------
+constructor |	Returns the string's constructor function
+length	| Returns the length of a string
+prototype	| Allows you to add properties and methods to an object
+
+#### String Methods
+Method | Description
+------- | --------
+charAt()	| Returns the character at the specified index (position)
+charCodeAt()	| Returns the Unicode of the character at the specified index
+concat()	| Joins two or more strings, and returns a new joined strings
+endsWith()	| Checks whether a string ends with specified string/characters
+fromCharCode()	| Converts Unicode values to characters
+includes()	| Checks whether a string contains the specified string/characters
+indexOf()	| Returns the position of the first found occurrence of a specified value in a string
+lastIndexOf()	| Returns the position of the last found occurrence of a specified value in a string
+localeCompare()	| Compares two strings in the current locale
+match()	| Searches a string for a match against a regular expression, and returns the matches
+repeat()	| Returns a new string with a specified number of copies of an existing string
+replace()	| Searches a string for a specified value, or a regular expression
+search()	| Searches a string for a specified value, or regular expression, and returns the position of the match
+slice()	| Extracts a part of a string and returns a new string
+split()	| Splits a string into an array of substrings
+startsWith()	| Checks whether a string begins with specified characters
+substr()	| Extracts the characters from a string, beginning at a specified start position
+substring()	| Extracts the characters from a string, between two specified indices
+toLocaleLowerCase()	| Converts a string to lowercase letters, according to the host's locale
+toLocaleUpperCase()	| Converts a string to uppercase letters, according to the host's locale
+toLowerCase()	| Converts a string to lowercase letters
+toString()	| Returns the value of a String object
+toUpperCase()	| Converts a string to uppercase letters
+trim()	| Removes whitespace from both ends of a string
+valueOf()	| Returns the primitive value of a String object
