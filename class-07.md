@@ -266,6 +266,7 @@ element.setAttribute(attribute, value)	| Change the attribute value of an HTML e
 - Adding and Deleting Elements:
 
 Method	| Description
+-------- | ------------
 document.createElement(element)	| Create an HTML element
 document.removeChild(element)	| Remove an HTML element
 document.appendChild(element)	| Add an HTML element
@@ -287,14 +288,15 @@ As JavaScript automatically converts between string primitives and String object
 #### String Properties
 
 Property | Description
---------- | ----------
+--------- | ---------
 constructor |	Returns the string's constructor function
 length	| Returns the length of a string
 prototype	| Allows you to add properties and methods to an object
 
 #### String Methods
+
 Method | Description
-------- | --------
+------- | -------
 charAt()	| Returns the character at the specified index (position)
 charCodeAt()	| Returns the Unicode of the character at the specified index
 concat()	| Joins two or more strings, and returns a new joined strings
@@ -336,7 +338,7 @@ var y = 123e-5;   // 0.00123
 
 #### Number Properties
 Property	| Description
------------ | ------------
+----------- | -----------
 constructor	| Returns the function that created JavaScript's Number prototype
 MAX_VALUE	| Returns the largest number possible in JavaScript
 MIN_VALUE	| Returns the smallest number possible in JavaScript
@@ -348,7 +350,7 @@ prototype	| Allows you to add properties and methods to an object
 
 #### Number Methods
 Method	| Description
--------- | ------------
+-------- | --------
 isFinite()	| Checks whether a value is a finite number
 isInteger()	| Checks whether a value is an integer
 isNaN()	| Checks whether a value is Number.NaN
@@ -386,7 +388,7 @@ SQRT2	| Returns the square root of 2 (approx. 1.414)
 
 #### Math Object Methods
 Method	| Description
--------- | ------------
+-------- | --------
 abs(x)	| Returns the absolute value of x
 acos(x)	| Returns the arccosine of x, in radians
 acosh(x)	| Returns the hyperbolic arccosine of x
