@@ -340,11 +340,11 @@ var y = 123e-5;   // 0.00123
 Property	| Description
 ----------- | -----------
 constructor	|  Returns the function that created JavaScript's Number prototype
-MAX_VALUE	|  Returns the largest number possible in JavaScript
-MIN_VALUE	|  Returns the smallest number possible in JavaScript
-NEGATIVE_INFINITY	|  Represents negative infinity (returned on overflow)
+MAX\_VALUE	|  Returns the largest number possible in JavaScript
+MIN\_VALUE	|  Returns the smallest number possible in JavaScript
+NEGATIVE\_INFINITY	|  Represents negative infinity (returned on overflow)
 NaN	Represents |  a "Not-a-Number" value
-POSITIVE_INFINITY	|  Represents infinity (returned on overflow)
+POSITIVE\_INFINITY	|  Represents infinity (returned on overflow)
 prototype	|  Allows you to add properties and methods to an object
 
 
