@@ -336,7 +336,6 @@ var x = 123e5;    // 12300000
 var y = 123e-5;   // 0.00123
 ```
 
-Great 3
 
 #### Number Properties
 
@@ -345,6 +344,10 @@ Property | Description
 constructor	|  Returns the function that created JavaScript\'s Number prototype
 MAX\_VALUE	|  Returns the largest number possible in JavaScript
 MIN\_VALUE	|  Returns the smallest number possible in JavaScript
+NEGATIVE\_INFINITY	|  Represents negative infinity (returned on overflow)
+NaN	Represents |  a "Not\-a\-Number" value
+POSITIVE\_INFINITY	|  Represents infinity (returned on overflow)
+prototype	|  Allows you to add properties and methods to an object
 
 
 
@@ -364,7 +367,6 @@ toString() | Converts a number to a string
 valueOf() | Returns the primitive value of a number
 
 
-Not Great Great
 
 ## Math Object
 
@@ -378,6 +380,7 @@ var y = Math.sqrt(16);      // Returns the square root of 16
 ```
 
 #### Math Object Properties
+
 Property	| Description
 ------------- | -------------
 E	| Returns Euler's number (approx. 2.718)
@@ -391,6 +394,7 @@ SQRT2	| Returns the square root of 2 (approx. 1.414)
 
 
 #### Math Object Methods
+
 Method	| Description
 -------- | --------
 abs(x)	| Returns the absolute value of x
