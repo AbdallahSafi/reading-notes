@@ -23,6 +23,8 @@ Read Num | Read title | Read link
 05 | HTML Images; CSS Color & Text| [Click here](https://abdallahsafi.github.io/reading-notes/class-05)
 06 | JS Object Literals; The DOM | [Click here](https://abdallahsafi.github.io/reading-notes/class-06)
 07 | HTML Tables; JS Constructor Functions | [Click here](https://abdallahsafi.github.io/reading-notes/class-07)
+08 | CSS Layout | [Click here](https://abdallahsafi.github.io/reading-notes/class-08)
+
 
 
 
