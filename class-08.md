@@ -86,7 +86,6 @@ Floats are used to shift a box to the left or right, allowing content to display
 }
 ```
 
-![float](https://i1.wp.com/css-tricks.com/wp-content/csstricks-uploads/web-text-wrap.png?resize=540%2C270&ssl=1)
 
 **What are floats used for?**
 
