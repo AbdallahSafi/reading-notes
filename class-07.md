@@ -343,7 +343,7 @@ constructor	|  Returns the function that created JavaScript's Number prototype
 MAX\_VALUE	|  Returns the largest number possible in JavaScript
 MIN\_VALUE	|  Returns the smallest number possible in JavaScript
 NEGATIVE\_INFINITY	|  Represents negative infinity (returned on overflow)
-NaN	Represents |  a "Not-a-Number" value
+NaN	Represents |  a "Not\-a\-Number" value
 POSITIVE\_INFINITY	|  Represents infinity (returned on overflow)
 prototype	|  Allows you to add properties and methods to an object
 
