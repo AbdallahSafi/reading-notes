@@ -336,17 +336,20 @@ var x = 123e5;    // 12300000
 var y = 123e-5;   // 0.00123
 ```
 
-Great 2
+Great 3
 
 #### Number Properties
-Property	| Description
------------ | -----------
+
+Property | Description
+-------- | -----------
+constructor	|  Returns the function that created JavaScript\'s Number prototype
 MAX\_VALUE	|  Returns the largest number possible in JavaScript
 MIN\_VALUE	|  Returns the smallest number possible in JavaScript
 
 
 
 #### Number Methods
+
 Method       | Description
 ------------ | -------------
 isFinite() | Checks whether a value is a finite number
