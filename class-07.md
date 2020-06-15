@@ -341,7 +341,6 @@ Great 2
 #### Number Properties
 Property	| Description
 ----------- | -----------
-constructor	|  Returns the function that created JavaScript's Number prototype
 MAX\_VALUE	|  Returns the largest number possible in JavaScript
 MIN\_VALUE	|  Returns the smallest number possible in JavaScript
 
