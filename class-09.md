@@ -246,7 +246,7 @@ ol.d {
 }
 ```
 
-![image](assets/image19)
+![image](assets/image19.png)
 
 ### An Image as The List Item Marker
 
@@ -258,7 +258,7 @@ ul {
 }
 ```
 
-![image](assets/image20)
+![image](assets/image20.png)
 
 ### Position The List Item Markers
 
@@ -266,11 +266,11 @@ The list-style-position property specifies the position of the list-item markers
 
 "list-style-position: outside;" means that the bullet points will be outside the list item. The start of each line of a list item will be aligned vertically. This is default:
 
-![image](assets/image21)
+![image](assets/image21.png)
 
 "list-style-position: inside;" means that the bullet points will be inside the list item. As it is part of the list item, it will be part of the text and push the text at the start:
 
-![image](assets/image22)
+![image](assets/image22.png)
 
 ### Table CSS
 
