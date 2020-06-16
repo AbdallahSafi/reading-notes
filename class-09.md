@@ -117,39 +117,105 @@ Checkboxes are used to let the user select one or more options from a pre-define
 
 File select boxes are used to allow the user to select a local file and send it as an attachment to the web server.It is similar to a text box with a button which allows the user to browse for a file.Instead of browsing for the file, the path and the name of the file can also be written. File select boxes are created using the “input” element with a type attribute having value as “file”.
 
-
 ```html
-<!DOCTYPE html> 
-<html> 
-<h3>Example of a File Select Box</3>  
-    <body> 
-    <form> 
-        <label for="fileselect">Upload:</label> 
-        <input type="file" name="upload" id="fileselect"> 
-    </form> 
-</body> 
-</html> 
+<!DOCTYPE html>
+<html>
+<h3>Example of a File Select Box</3>
+    <body>
+    <form>
+        <label for="fileselect">Upload:</label>
+        <input type="file" name="upload" id="fileselect">
+    </form>
+</body>
+</html>
 ```
 
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-2.40.47-AM.png)
-
 
 ### Text area in an HTML Form :
 
 Text Area is a multiple line text input control which allows user to provide a description or text in multiple lines. A Text Area input control is created using the “textarea” element.
 
 ```html
-<!DOCTYPE html> 
-<html> 
-<h3>Example of a Text Area Box</h3>  
-<body> 
-    <form> 
-        <label for="Description">Description:</label> 
-        <textarea rows="5" cols="50" name="Description"
-                            id="Description"></textarea> 
-    </form> 
-</body> 
-</html> 
+<!DOCTYPE html>
+<html>
+  <h3>Example of a Text Area Box</h3>
+  <body>
+    <form>
+      <label for="Description">Description:</label>
+      <textarea
+        rows="5"
+        cols="50"
+        name="Description"
+        id="Description"
+      ></textarea>
+    </form>
+  </body>
+</html>
 ```
 
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-2.52.37-AM.png)
+
+### Select Boxes in HTML Forms :
+
+Select boxes are used to allow users to select one or more than one option from a pull-down list of options. Select boxes are created using two elements which are “select” and “option”.List items are defined within the select element.
+
+```html
+<!DOCTYPE html>
+<html>
+  <h3>Example of a Select Box</h3>
+  <body>
+    <form>
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </form>
+  </body>
+</html>
+```
+
+![image](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-2.58.28-AM.png)
+
+![image](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-2.58.38-AM.png)
+
+### Reset And Submit Buttons :
+
+The Submit Button allows the user to send the form data to the web server. The Reset Button is used to reset the form data and use the default values.
+
+```html
+<!DOCTYPE html>
+<html>
+  <h3>Example of a Submit And Reset Button</h3>
+  <body>
+    <form action="test.php" method="post" id="users">
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="Username" />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
+```
+
+![image](https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-14-at-3.05.00-AM.png)
+
+The Action Attribute :
+The action to be performed after the submission of the form is decided by the action attribute. Generally, the form data is sent to a webpage on the web server after the user clicks on the submit button.
+
+```html
+<!DOCTYPE html>
+<html>
+  <h3>Example of a Submit And Reset Button</h3>
+  <body>
+    <form action="test.php" method="post" id="users">
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="Username" />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
+```
