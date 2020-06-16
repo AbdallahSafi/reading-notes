@@ -219,3 +219,162 @@ The action to be performed after the submission of the form is decided by the ac
   </body>
 </html>
 ```
+
+## List CSS
+
+### Different List Item Markers
+
+The list-style-type property specifies the type of list item marker.
+
+The following example shows some of the available list item markers:
+
+```css
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+```
+
+![image](assets/image19)
+
+### An Image as The List Item Marker
+
+The list-style-image property specifies an image as the list item marker:
+
+```css
+ul {
+  list-style-image: url('sqpurple.gif');
+}
+```
+![image](assets/image20)
+
+
+### Position The List Item Markers
+The list-style-position property specifies the position of the list-item markers (bullet points).
+
+"list-style-position: outside;" means that the bullet points will be outside the list item. The start of each line of a list item will be aligned vertically. This is default:
+
+![image](assets/image21)
+
+"list-style-position: inside;" means that the bullet points will be inside the list item. As it is part of the list item, it will be part of the text and push the text at the start:
+
+![image](assets/image22)
+
+### Table CSS
+
+
+**width** 
+to set the width of the table
+
+**padding** 
+to set the space between the border of each table cell and its content
+
+**text-transform** 
+to convert the content of the table headers to uppercase
+
+**letter-spacing**, **font-size**
+to add additional styling to the content of the table headers
+
+**border-top**, **border-bottom**
+to set borders above and below the table headers
+
+**text-align** 
+to align the writing to the left of some table cells and to the right of the others
+
+**background-color** 
+to change the background color of the alternating table rows
+
+**:hover** 
+to highlight a table row when a user's mouse goes over it
+
+## Forms css
+
+### Setting box-sizing
+I usually set * {box-sizing:border-box;} not only for forms, but also webpages. When you set it, the width of all the elements will contain the padding.
+
+For example, set the width and padding as follows.
+
+```css
+.some-class {
+  width:200px;
+  padding:20px;
+}
+```
+
+### Padding
+Adding some inner space to the input field can help improve clarity. You can accomplish this with the padding property.
+
+```css
+input[type=text] {
+  padding: 10px;
+}
+```
+
+![image](https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2020/03/input-field-padding.png?resize=200%2C53&ssl=1)
+
+### Margin
+If there are other elements near your input field, you may want to add a margin around it to prevent clustering.
+
+```css
+input[type=text] {
+  padding:10px;
+  margin:10px 0; // add top and bottom margin
+}
+```
+
+![image](https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2020/03/input-field-margin.jpeg?w=700&ssl=1)
+
+
+### Border
+In most browsers, text input fields have borders, which you can customize.
+
+```css
+.border-customized-input {
+   border: 2px solid #eee;
+}
+```
+You can also remove a border altogether.
+
+```css
+.border-removed-input {
+  border: 0;
+}
+```
+
+### Box shadow
+
+You can use the CSS box-shadow property to add a drop shadow. You can achieve a range of effects by playing around with the property’s five values.
+
+```css
+input[type=text] {
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+```
+
+![img](https://i2.wp.com/blog.logrocket.com/wp-content/uploads/2020/03/input-field-box-shadow.png?resize=251%2C142&ssl=1)
+
+### Border radius
+
+The border-radius property can have a massive impact on the feel of your forms. By curving the edges of the boxes, you can significantly alter the appearance of your input fields.
+
+```css
+.rounded-input {
+  padding:10px;
+  border-radius:10px;
+}
+```
+
+![img](https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2020/03/input-field-border-radius.png?w=356&ssl=1)
