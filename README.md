@@ -24,6 +24,8 @@ Read Num | Read title | Read link
 06 | JS Object Literals; The DOM | [Click here](https://abdallahsafi.github.io/reading-notes/class-06)
 07 | HTML Tables; JS Constructor Functions | [Click here](https://abdallahsafi.github.io/reading-notes/class-07)
 08 | CSS Layout | [Click here](https://abdallahsafi.github.io/reading-notes/class-08)
+09 | Forms and JS Events | [Click here](https://abdallahsafi.github.io/reading-notes/class-09)
+
 
 
 
