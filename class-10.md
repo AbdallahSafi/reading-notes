@@ -66,3 +66,71 @@ The javascript interpreter processes one line of code at time, When a statment n
 ## Errors
 
 If a JavaScript statement generates an error, then it throws an exception . At that point, the interpreter stops and looks for exception-handling code.
+
+### Error objects
+
+ Error objects can help you find where your mistakes are and browsers have tools to help you read them.
+
+When an Er ror object is created, it will contain the following properties:
+
+PROPERTY | DESCRIPTION 
+--------- | ----------
+name | Type of execution
+message | Description
+fileNumber | Name of the JavaScript file 
+lineNumber |  Line number of error
+
+
+There are seven types of built-in error objects in JavaScript. You'll see them on the next two pages:
+
+**EvalError**
+
+Creates an instance representing an error that occurs regarding the global function eval().
+
+**InternalError**
+
+Creates an instance representing an error that occurs when an internal error in the JavaScript engine is thrown. E.g. "too much recursion".
+
+**RangeError**
+
+Creates an instance representing an error that occurs when a numeric variable or parameter is outside of its valid range.
+
+**ReferenceError**
+
+Creates an instance representing an error that occurs when de-referencing an invalid reference.
+
+**SyntaxError**
+
+Creates an instance representing a syntax error.
+
+**TypeError**
+
+Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
+
+**URIError**
+
+Creates an instance representing an error that occurs when encodeURI() or decodeURI() are passed invalid parameters.
+
+###  How to deal with errors?
+
+1. Debug the script to fix errors 
+
+To debug your script there is nultiple ways to do that, one of them is to use the developer tool thaat comes with your browser
+
+2. Handle errors gracefully 
+
+If you know your code might fail, use try, catch, and finally. Each one is given its own code block.
+
+```javascript
+try {
+// Try to execute this code
+catch (exception) {
+// If there is an exception, run this code finally {
+}finally{
+// This always gets executed
+}
+```
+
+###  Throwing errors 
+
+If you know something might cause a problem for your script, you can generate your own errors before the interpreter creates them.
