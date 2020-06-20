@@ -11,9 +11,18 @@ You can control the size of an image using the width and height properties in CS
 ```
 
 ```css
-img.large { width: 500px; height: 500px;}
-img.medium { width: 250px; height: 250px;}
-img.small { width: 100px; height: 100px;}
+img.large {
+  width: 500px;
+  height: 500px;
+}
+img.medium {
+  width: 250px;
+  height: 250px;
+}
+img.small {
+  width: 100px;
+  height: 100px;
+}
 ```
 
 ### How to align and float images on your website ?
@@ -21,32 +30,31 @@ img.small { width: 100px; height: 100px;}
 **Image alignment**
 
 - Floating images right with text wrapping
-In this example, we include the image tag in our HTML file, but identify the image with an ID (“hp”).
+  In this example, we include the image tag in our HTML file, but identify the image with an ID (“hp”).
 
 ```html
-<img src="hp.jpg" alt="" width="200" height="200" id="hp"/>
+<img src="hp.jpg" alt="" width="200" height="200" id="hp" />
 ```
 
 The formatting code is called from a separate CSS file, which includes the float:right rule, plus some additional spacing, courtesy of the margin rule.
 
 ```css
-#hp  {
-float: right;    
- margin: 0 0 0 15px;
+#hp {
+  float: right;
+  margin: 0 0 0 15px;
 }
 ```
 
 ![image](https://hostpapasupport.com/knowledgebase/wp-content/uploads/2017/11/6-600x119.png)
-
 
 - Floating images left with text wrapping
 
 With the image correctly tagged in the HTML file, you can simply edit the CSS rule to experiment with alternative layouts.
 
 ```css
-#hp  {
-float: left;    
- margin: 0 15px 0 0;
+#hp {
+  float: left;
+  margin: 0 15px 0 0;
 }
 ```
 
@@ -57,9 +65,9 @@ float: left;
 Use the float:none rule to simply display the image where it is placed in the text, without any wrapping. You can retain the margin rule (if desired) for spacing.
 
 ```css
-#hp  {
-float: none;    
- margin: 0 15px 0 0;
+#hp {
+  float: none;
+  margin: 0 15px 0 0;
 }
 ```
 
@@ -71,18 +79,17 @@ One important, additional requirement when floating images is the correct use of
 
 ![image](https://hostpapasupport.com/knowledgebase/wp-content/uploads/2017/11/9-600x167.png)
 
-
 ```css
 .div2 {
-     border: 1px solid red;
-     clear: both;
+  border: 1px solid red;
+  clear: both;
 }
 ```
 
 **Centering the image using CSS**
 
 ```html
-<img src="paris.jpg" alt="Paris" class="center">
+<img src="paris.jpg" alt="Paris" class="center" />
 ```
 
 ```css
@@ -100,12 +107,12 @@ Set a background-image for the `<body>` element:
 
 ```css
 body {
- background-image: url("paper.gif");
- background-color: #cccccc;
+  background-image: url("paper.gif");
+  background-color: #cccccc;
 }
 ```
 
-- Background Repeat 
+- Background Repeat
 
 Repeat a background-image only vertically:
 
@@ -116,7 +123,7 @@ body {
 }
 ```
 
-- Background Attachment 
+- Background Attachment
 
 A background-image that will not scroll with the page (fixed):
 
@@ -134,7 +141,7 @@ The background-position property in CSS allows you to move a background image (o
 
 ```css
 html {
-  background-position: 100px 5px; 
+  background-position: 100px 5px;
 }
 ```
 
@@ -160,12 +167,70 @@ earch engine optimization is the process of optimizing web pages and their conte
 
 Many people search for specific products and services with the intent to pay for these things. These searches are known to have commercial intent, meaning they are clearly indicating with their search that they want to buy something you offer.
 
-
--  SEO Keyword Research & Keyword Targeting Best Practices
+- SEO Keyword Research & Keyword Targeting Best Practices
 
 The first step in search engine optimization is to determine what you’re actually optimizing for. This means identifying terms people are searching for, also known as “keywords,” that you want your website to rank for in search engines like Google.
 
--  How many people are coming to your site?
+- How many people are coming to your site?
 
 The overview page gives you a snapshot of the key information you are likely to want to know. In particular, it tells you how many people are coming to your site.
 
+### Domain names & Hosting
+
+- Domain name is the address of your website that people type in the browser’s URL bar to visit your website.
+
+- Web hosting is the place where all the files of your website live. It is like the home of your website where it actually lives.
+
+### FTP & third Party tools
+
+The File Transfer Protocol (FTP) is a standard network protocol used for the transfer of computer files between a client and server on a computer network.
+
+File Transfer Protocol (FTP) is both easy to use and a robust solution. It enables you to visualize your file structure, and access advanced options for each file within an intuitive interface. Plus, there are plenty of free FTP tools available.
+
+## HTML5 audio and video
+
+HTML5 features include native audio and video support without the need for Flash.
+
+The HTML5 `<audio>` and `<video>` tags make it simple to add media to a website. You need to set src attribute to identify the media source and include a controls attribute so the user can play and pause the media.
+
+- Embedding Video
+
+Here is the simplest form of embedding a video file in your webpage −
+
+```html
+<video src="foo.mp4" width="300" height="200" controls>
+  Your browser does not support the <video>element.</video>
+</video>
+```
+
+most commonly used video formats are −
+
+_Ogg_ − Ogg files with Thedora video codec and Vorbis audio codec.
+
+_mpeg4_ − MPEG4 files with H.264 video codec and AAC audio codec.
+
+**Video Attribute Specification**
+
+The HTML5 video tag can have a number of attributes to control the look and feel and various functionalities of the control −
+
+| Attribute  | Description                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
+| autoplay   | the video will automatically begin to play back as soon as it can do                                    |
+| autobuffer | the video will automatically begin buffering even if it's not set to automatically play.                |
+| controls   | it will allow the user to control video playback, including volume, seeking, and pause/resume playback. |
+| height     | This attribute specifies the height of the video's display area, in CSS pixels.                         |
+| loop       | will allow video automatically seek back to the start after reaching at the end.                        |
+| preload    | the video will be loaded at page load, and ready to run                                                 |
+| poster     | This is a URL of an image to show until the user plays or seeks.                                        |
+| src        | The URL of the video to embed. This is optional;                                                        |
+| width      | This attribute specifies the width of the video's display area, in CSS pixels.                          |
+
+- Embedding Audio
+
+HTML5 supports `<audio>` tag which is used to embed sound content in an HTML or XHTML document as follows.
+
+```html
+<audio src="foo.wav" controls autoplay>
+  Your browser does not support the <audio>element.</audio>
+</audio>
+```
