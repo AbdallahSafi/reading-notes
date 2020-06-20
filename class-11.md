@@ -234,3 +234,17 @@ HTML5 supports `<audio>` tag which is used to embed sound content in an HTML or 
   Your browser does not support the <audio>element.</audio>
 </audio>
 ```
+
+**Audio Attribute Specification**
+
+The HTML5 audio tag can have a number of attributes to control the look and feel and various functionalities of the control −
+
+Attribute |  Description
+-------- | -----------
+autoplay | the audio will automatically begin to play back as soon as it can do so without stopping to finish loading the data.	
+autobuffer | the audio will automatically begin buffering even if it's not set to automatically play.
+controls |  it will allow the user to control audio playback, including volume, seeking, and pause/resume playback.	
+loop | will allow audio automatically seek back to the start after reaching at the end.	
+preload |  he audio will be loaded at page load, and ready to run. Ignored if autoplay is present.	
+src | The URL of the audio to embed. This is optional
+
