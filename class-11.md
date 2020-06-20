@@ -138,3 +138,12 @@ html {
 }
 ```
 
+- Gradients & background-image
+
+```css
+body {
+  background: #eb01a5;
+  background-image: url("IMAGE_URL"); /* fallback */
+  background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); /* W3C */
+}
+```
