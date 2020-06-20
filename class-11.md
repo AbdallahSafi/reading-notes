@@ -147,3 +147,25 @@ body {
   background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); /* W3C */
 }
 ```
+
+# Practical information
+
+Search Engine Optimization (SEO)
+
+![image](https://moz.imgix.net/learn/guides/Mozlows-01-outline.svg?auto=format&ch=Width&fit=max&q=50&s=e088165a17e355b8186964266ef71ca5)
+
+earch engine optimization is the process of optimizing web pages and their content to be easily discoverable by users searching for terms relevant to your website. The term SEO also describes the process of making web pages easier for search engine indexing software, known as "crawlers," to find, scan, and index your site.
+
+- Why Should You Care About SEO ?
+
+Many people search for specific products and services with the intent to pay for these things. These searches are known to have commercial intent, meaning they are clearly indicating with their search that they want to buy something you offer.
+
+
+-  SEO Keyword Research & Keyword Targeting Best Practices
+
+The first step in search engine optimization is to determine what you’re actually optimizing for. This means identifying terms people are searching for, also known as “keywords,” that you want your website to rank for in search engines like Google.
+
+-  How many people are coming to your site?
+
+The overview page gives you a snapshot of the key information you are likely to want to know. In particular, it tells you how many people are coming to your site.
+
