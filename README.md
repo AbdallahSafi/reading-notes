@@ -26,6 +26,10 @@ Read Num | Read title | Read link
 08 | CSS Layout | [Click here](https://abdallahsafi.github.io/reading-notes/class-08)
 09 | Forms and JS Events | [Click here](https://abdallahsafi.github.io/reading-notes/class-09)
 10 | Error Handling & Debugging | [Click here](https://abdallahsafi.github.io/reading-notes/class-10)
+11 | Assorted Topics | [Click here](https://abdallahsafi.github.io/reading-notes/class-11)
+
+
+
 
 
 
