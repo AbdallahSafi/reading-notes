@@ -82,3 +82,7 @@ if (window.addEventListener) {
 ```
 
 ## LIMITATIONS IN CURRENT BROWSERS
+
+- “5 megabytes” is how much storage space each origin gets by default.
+
+
