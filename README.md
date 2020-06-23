@@ -30,7 +30,7 @@ Read Num | Read title | Read link
 12 | Chart.js, Canvas | [Click here](https://abdallahsafi.github.io/reading-notes/class-12)
 13 | Local Storage | [Click here](https://abdallahsafi.github.io/reading-notes/class-13)
 14a | CSS Transforms, Transitions, and Animations | [Click here](https://abdallahsafi.github.io/reading-notes/class-14a)
-14a | What Google Learned From Its Quest to Build the Perfect Team | [Click here](https://abdallahsafi.github.io/reading-notes/class-14a)
+14b | What Google Learned From Its Quest to Build the Perfect Team | [Click here](https://abdallahsafi.github.io/reading-notes/class-14a)
 
 
 
