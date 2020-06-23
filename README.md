@@ -29,6 +29,7 @@ Read Num | Read title | Read link
 11 | Assorted Topics | [Click here](https://abdallahsafi.github.io/reading-notes/class-11)
 12 | Chart.js, Canvas | [Click here](https://abdallahsafi.github.io/reading-notes/class-12)
 13 | Local Storage | [Click here](https://abdallahsafi.github.io/reading-notes/class-13)
+14a | CSS Transforms, Transitions, and Animations | [Click here](https://abdallahsafi.github.io/reading-notes/class-14a)
 
 
 
