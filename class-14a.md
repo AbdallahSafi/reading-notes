@@ -273,3 +273,150 @@ To allow nested elements to transform in their own three-dimensional plane use t
 ```
 
 # Transitions & Animations
+
+## Transitions
+
+- CSS transitions allows you to change property values smoothly, over a given duration.
+
+- There are two properties that are required in order for the transition to take effect:
+
+1.  transition-property
+2.  transition-duration
+
+**Transition Shorthand**
+
+```css
+div {
+  transition: [property] [duration] [timing-function] [delay];
+}
+```
+
+### transition-property
+
+The transition-property specifies the CSS property where the transition will be applied. You may apply a transition to an individual property (e.g., background-color or tranform) or to all properties in the rule-set (i.e., all).
+
+CSS syntax examples for transition-property
+
+```css
+div {
+  transition-property: all;
+  transition-property: transform;
+}
+```
+
+### transition-duration
+
+The transition-duration property specifies the time span of the transition. You can specify in seconds or milliseconds.
+
+CSS syntax example for transition-duration
+
+```css
+div {
+  transition-duration: 3s;
+}
+```
+
+Shorthand example for transition-duration
+
+```css
+div {
+  transition: all 3s;
+}
+```
+
+### transition-timing
+
+The transition-timing-function property allows you to define the speed of the transition over the duration. The default timing is ease, which starts out slow, quickly speeds up, and then slows down at the end. The other timing options are: linear, ease, ease-in, ease-out, and ease-in-out.
+
+```css
+div {
+  transition: all 3s 1s;
+}
+```
+
+### Animation
+
+- An animation lets an element gradually change from one style to another.
+
+- You can change as many CSS properties you want, as many times you want.
+
+- To use CSS animation, you must first specify some keyframes for the animation.
+
+- Keyframes hold what styles the element will have at certain times.
+
+### The @keyframes Rule
+
+When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.
+
+```css
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+```
+
+### Delay an Animation
+
+The animation-delay property specifies a delay for the start of an animation.
+
+The following example has a 2 seconds delay before starting the animation:
+
+Example:
+
+```css
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+```
+
+### Run Animation in Reverse Direction or Alternate Cycles
+
+The animation-direction property specifies whether an animation should be played forwards, backwards or in alternate cycles.
+
+The animation-direction property can have the following values:
+
+- normal - The animation is played as normal (forwards). This is default
+- reverse - The animation is played in reverse direction (backwards)
+- alternate - The animation is played forwards first, then backwards
+- alternate-reverse - The animation is played backwards first, then forwards
+
+```css
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;
+}
+```
+
+
+### Specify the Speed Curve of the Animation
+The animation-timing-function property specifies the speed curve of the animation.
+
+The animation-timing-function property can have the following values:
+
+- ease - Specifies an animation with a slow start, then fast, then end slowly (this is default)
+- linear - Specifies an animation with the same speed from start to end
+- ease-in - Specifies an animation with a slow start
+- ease-out - Specifies an animation with a slow end
+- ease-in-out - Specifies an animation with a slow start and end
+- cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier function
